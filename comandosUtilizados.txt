@@ -1,0 +1,31 @@
+Comandos utilizados
+
+  211  git add .
+  212  git commit -m "commit 01 de LiaTorres"
+  213  git push origin main
+  214  git branch feature01
+  215  git checkout feature01
+  216  mkdir Terminal Hardware
+  217  cd Terminal
+  218  touch resumen.txt
+  219  cd ..
+  220  cd Hardware
+  221  touch resumen.txt
+  222  cd ..
+  223  git add .
+  224  git commit -m "commit 02 de LiaTorres"
+  225  git push origin feature01
+  226  git branch feature02
+  227  git checkout feature02
+  228  cd Terminal/resumen.txt
+  229  pwd
+  230  cd Terminal
+  231  cd ..
+  232  cd Hardware
+  233  cd ..
+  234  git add .
+  235  git commit -m "commit 03 de LiaTorres"
+  236  git push origin feature02
+  237  git checkout main
+  238  mv comandos.txt comandosUtilizados.txt
+  239  history
